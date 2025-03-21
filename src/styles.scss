@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@use 'sass:map';
+@use 'styles/variables' as variables;
+@use 'bootstrap/scss/bootstrap' with (
+  $primary: variables.$blue-light,
+  $secondary: variables.$blue-dark,
+  $theme-colors: variables.$theme-colors
+);
+
+body {
+  color: variables.$text-primary;
+  background-color: variables.$beige;
+}

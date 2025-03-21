@@ -1,0 +1,18 @@
+$blue-dark: #99cae6;
+$blue-light: #c1dded;
+$beige: #f4f2ee;
+
+$text-primary: #3b3a3a;
+$text-secondary: #666464;
+
+$primary: $blue-dark;
+$secondary: $blue-light;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "bg-beige": $beige,
+  "bg-light-blue": $blue-light,
+  "bg-dark-blue": $blue-dark
+);
+
