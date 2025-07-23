@@ -45,6 +45,12 @@
   transform: translateX(var(--cloud-start-x)) scale(var(--scale));
 }
 
+@media (max-width: 768px) {
+  .cloud {
+    --cloud-start-x: -70vw;
+  }
+}
+
 .cloud:before,
 .cloud:after {
   content: '';
