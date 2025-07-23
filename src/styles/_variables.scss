@@ -1,6 +1,7 @@
 $blue-dark: #99cae6;
 $blue-light: #c1dded;
 $beige: #f4f2ee;
+$white-gray: #f3f3f4;
 
 $text-primary: #3b3a3a;
 $text-secondary: #666464;
@@ -13,6 +14,7 @@ $theme-colors: (
   "secondary": $secondary,
   "beige": $beige,
   "light-blue": $blue-light,
-  "dark-blue": $blue-dark
+  "dark-blue": $blue-dark,
+  "white-gray": $white-gray
 );
 

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-portfolio',
@@ -7,5 +8,12 @@ import { Component } from '@angular/core';
   styleUrl: './portfolio.component.scss'
 })
 export class PortfolioComponent {
+
+  constructor(private location: Location) {}
+
+  goBack(): void {
+    this.location.back();
+  }
+  
 
 }

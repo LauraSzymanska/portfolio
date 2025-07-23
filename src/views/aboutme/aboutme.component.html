@@ -1,0 +1,147 @@
+<button class="btn btn-secondary btn-lg position-fixed top-5 start-5 m-3" (click)="goBack()">
+  < Back
+</button>
+
+<section id="about" class="bg-dark-blue d-flex align-items-center" style="min-height: 100vh;">
+    <div class="container text-center">
+      <div class="d-flex justify-content-start mb-4">
+      </div>
+      <div class="row align-items-center mt-5">
+        <div class="col-md-6">
+          <img src="other/myphoto.jpg" alt="Me" class="img-fluid rounded-circle border border-5 border-white-gray w-75">
+        </div>
+        <div class="col-md-6">
+          <h1 class="display-4">About me</h1>
+          <hr class="my-4" />
+          <p class="fs-4 mt-3 display-4 text-center">
+            I hold a Master's degree in Management and will soon complete my second Master's in Computer Science. 
+          <br>Data analysis is my passion – I enjoy working with data, processing, visualizing, and interpreting it to uncover insights that support effective business decisions. 
+          <br>
+          <br>I am looking for opportunities to grow as a junior data analyst, where I can translate my analytical skills into concrete business actions. I want to continue developing in the field of data analysis, both professionally and academically – I plan to pursue further studies in Data Analysis and Big Data.</p>
+          <a [routerLink]="['/portfolio']" class="btn btn-secondary btn-lg m-4 rounded-pill">See my portfolio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="bg-white-gray d-flex align-items-center" style="min-height: 100vh;">
+    <div class="container text-center">
+      <div class="d-flex justify-content-start mb-4">
+      </div>
+      <div class="row align-items-center mt-5 g-5">
+        <div class="col-md-6">
+          <hr class="my-4" />
+          <div class="mb-4">
+            <p class="mb-1 fs-5 display-4 text-start">10.2023 – now</p>
+            <p class="mb-1 fs-5 fw-semibold display-4 text-start">Warsaw University of Life Sciences</p>
+            <p class="mb-1 fs-4 fw-semibold display-4 text-start">Computer Science</p>
+            <p class="mb-0 fs-6 display-4 text-start">Degree: Master of Science</p>
+          </div>
+          <hr class="my-4" />
+          <div class="mb-4">
+            <p class="mb-1 fs-5 display-4 text-start">10.2023 - 06.2025</p>
+            <p class="mb-1 fs-5 fw-semibold display-4 text-start">University of Warsaw</p>
+            <p class="mb-1 fs-4 fw-semibold display-4 text-start">Management</p>
+            <p class="mb-0 fs-6 display-4 text-start">Degree: Master of Science</p>
+          </div>
+          <hr class="my-4" />
+          <div class="mb-4">
+            <p class="mb-1 fs-5 display-4 text-start">10.2020 - 07.2023</p>
+            <p class="mb-1 fs-5 fw-semibold display-4 text-start">Warsaw University of Life Sciences</p>
+            <p class="mb-1 fs-4 fw-semibold display-4 text-start">Management</p>
+            <p class="mb-0 fs-6 display-4 text-start">Degree: Bachelor of Science</p>
+          </div>
+          <hr class="my-4" />
+          <div class="mb-4">
+            <p class="mb-1 fs-5 display-4 text-start">02.2020 - 02.2023</p>
+            <p class="mb-1 fs-5 fw-semibold display-4 text-start">Warsaw Management University</p>
+            <p class="mb-1 fs-4 fw-semibold display-4 text-start">Computer Science</p>
+            <p class="mb-0 fs-6 display-4 text-start">Degree: Bachelor of Science</p>
+          </div>
+        </div>
+        <div class="col-md-6 bg-light-blue p-4 rounded-4">
+          <h1 class="display-4">Education</h1>
+          <p class="fs-4 mt-3 display-4 text-center">
+            Studying multiple degree programs simultaneously has allowed me to develop a broad range of both technical and analytical-business competencies. 
+            <br>
+            <br><b>Computer Science</b> studies equipped me with skills in <b>programming, software engineering, data structures, and working with database systems</b>. I expanded my knowledge of <b>Python, SQL</b>, as well as the fundamentals of <b>Artificial Intelligence and Machine Learning</b>.
+            <br>
+            <br>Meanwhile, <b>Management</b> studies strengthened my <b>analytical and business abilities</b>, as well as my <b>understanding of organizational processes and decision-making</b>. In particular, I gained proficiency in working with data using <b>Excel</b> and <b>Power BI</b>, and I also had the opportunity to become familiar with the basics of <b>VBA</b> and <b>R</b>.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="bg-dark-blue d-flex align-items-center" style="min-height: 100vh;">
+    <div class="container text-center">
+      <div class="d-flex justify-content-start mb-4">
+      </div>
+      <div class="row align-items-start justify-content-center gap-md-5 gap-4 mt-5">
+        <div class="col-md-4 mt-3">
+          <h1 class="display-4">Skills</h1>
+          <hr class="my-4" />
+          <p class="fs-4 display-4 text-center">My skill set combines both technical and interpersonal abilities, enabling me to connect business understanding with data analysis. I work efficiently with tools and languages used to process, analyze, and visualize data. I also use soft skills to adapt to different work environments and ensure that my technical work supports real business needs.</p>
+        </div>
+        <div class="col-md-2 mt-3 ms-4">
+          <h2 class="display-4 fw-semibold fs-2 mb-4 text-start">Hard skills</h2>
+          <p class="mb-3 fs-4 display-4 text-start">➤ Power BI</p>
+          <p class="mb-3 fs-4 display-4 text-start">➤ MS Excel</p>
+          <p class="mb-3 fs-4 display-4 text-start">➤ Python</p>
+          <p class="mb-3 fs-4 display-4 text-start">➤ R</p>
+          <p class="mb-3 fs-4 display-4 text-start">➤ SQL</p>
+          <p class="mb-3 fs-4 display-4 text-start">➤ VBA</p>
+          <p class="mb-3 fs-4 display-4 text-start">➤ Git/Github</p>
+          <p class="mb-3 fs-4 display-4 text-start">➤ Azure</p>
+        </div>
+        <div class="col-md-3 mt-3 ms-4">
+          <h2 class="display-4 fw-semibold fs-2 mb-4 text-start">Soft skills</h2>
+          <p class="mb-3 fs-4 display-4 text-start">➤ Analytical thinking</p>
+          <p class="mb-3 fs-4 display-4 text-start">➤ Accuracy</p>
+          <p class="mb-3 fs-4 display-4 text-start">➤ Punctuality</p>
+          <p class="mb-3 fs-4 display-4 text-start">➤ Directness</p>
+          <p class="mb-3 fs-4 display-4 text-start">➤ Time management</p>
+          <p class="mb-3 fs-4 display-4 text-start">➤ Responsibility</p>
+          <p class="mb-3 fs-4 display-4 text-start">➤ Multitasking</p>
+          <p class="mb-3 fs-4 display-4 text-start">➤ Teamwork</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-white-gray d-flex align-items-center" style="min-height: 100vh;">
+    <div class="container text-center">
+      <div class="d-flex justify-content-start mb-4">
+      </div>
+      <div class="row align-items-center mt-5">
+        <h1 class="display-4">Contact</h1>
+        <p class="fs-4 mt-2 display-4 text-center">Let's turn data into insights</p>
+        <hr class="my-4" />
+        <div class="col-md-4 mt-3 d-flex align-items-center justify-content-center gap-3">
+          <a href="mailto:lauraszymanska@proton.me" class="text-primary fs-1 text-decoration-none">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="mailto:lauraszymanska@proton.me" class="text-black fs-4 text-decoration-none display-4">
+            lauraszymanska&#64;proton.me
+          </a>
+        </div>
+        <div class="col-md-4 mt-3 d-flex align-items-center justify-content-center gap-3">
+          <a href="https://www.linkedin.com/in/laura-szymanska" target="_blank" class="text-primary fs-1">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/laura-szymanska" class="text-black fs-4 text-decoration-none display-4">
+            Laura Szymańska
+          </a>
+        </div>
+        <div class="col-md-4 mt-3 d-flex align-items-center justify-content-center gap-3">
+          <a href="https://github.com/LauraSzymanska" target="_blank" class="text-primary fs-1">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://github.com/LauraSzymanska" class="text-black fs-4 text-decoration-none display-4">
+            LauraSzymanska
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
