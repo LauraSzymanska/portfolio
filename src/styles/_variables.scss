@@ -1,3 +1,4 @@
+$blue-deep-dark: #669ecf;
 $blue-dark: #99cae6;
 $blue-light: #c1dded;
 $beige: #f4f2ee;
@@ -18,3 +19,6 @@ $theme-colors: (
   "white-gray": $white-gray
 );
 
+.dark-link {
+  color: $blue-deep-dark;
+}
