@@ -1,79 +1,135 @@
 <button class="btn btn-secondary btn-lg position-fixed top-5 start-5 m-3" (click)="goBack()">
-  < Back
-</button>
+  < Back </button>
 
-<div class="container text-center pt-5">
-  <h1 class="display-4">Portfolio</h1>
-  <hr class="my-4" />
-</div>
+    <div class="container text-center pt-5">
+      <h1 class="display-4">Portfolio</h1>
+      <p class="w-50 mx-auto text-center">
+        This portfolio contains selected projects and analyses I have created using Power BI and Excel. Each file and
+        visualization demonstrates my skills in data handling, analysis, and presenting results. Power BI reports can be
+        viewed via the Power BI Service, while Excel files are available on my GitHub page:
+          <a href="https://github.com/LauraSzymanska" target="_blank" class="dark-link">github.com/LauraSzymanska</a>
+      </p>
+    </div>
 
-<section id="powerbi" class="mb-4 bg-white-gray d-flex align-items-center">
-    <div class="container text-center">
-      <div class="row g-4">
-        <div class="col-md-6">
-          <a href="https://app.powerbi.com/view?r=eyJrIjoiOWExODIwYTItYWUwZC00M2VjLWI3NDUtZTUwZDVlZDgzMzE4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" class="text-white fs-5" target="_blank">
+    <section id="powerbi" class="mb-4 bg-white-gray d-flex align-items-center">
+      <div class="container text-center">
+        <hr class="my-4" />
+        <div class="row g-4">
+          <h2 class="display-6 text-start">Power BI</h2>
+          <div class="col-md-6">
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiOWExODIwYTItYWUwZC00M2VjLWI3NDUtZTUwZDVlZDgzMzE4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
+              class="text-white fs-5" target="_blank">
               <div class="card project-card border shadow position-relative overflow-hidden">
-              <img src="dashboards/jobmarket.png" alt="Population Dashboard" class="card-img-top img-fluid">
-              <div class="overlay d-flex flex-column justify-content-center align-items-center text-white text-center p-3">
-                @if(!isMobile){
+                <img src="dashboards/jobmarket.png" alt="Job market report" class="card-img-top img-fluid">
+                <div
+                  class="overlay d-flex flex-column justify-content-center align-items-center text-white text-center p-3">
+                  @if(!isMobile){
                   <h5 class="fw-bold">IT job market based on data from JustJoinIT (PL)</h5>
-                  <p class="mb-0 fs-6">Labor market analysis in the IT industry from 2021 to 2023, based on job offers from the JustJoin.it portal. The report presents trends in the total number of job postings over time, as well as breakdowns by experience level, work mode, and skills.</p>
-                }
+                  <p class="mb-0 fs-6">Labor market analysis in the IT industry from 2021 to 2023, based on job offers
+                    from the JustJoin.it portal. The report presents trends in the total number of job postings over
+                    time, as well as breakdowns by experience level, work mode, and skills.</p>
+                  }
                   <p class="text-decoration-underline fs-5">Open</p>
+                </div>
               </div>
-            </div>
-          </a>
-          @if(isMobile){
+            </a>
+            @if(isMobile){
             <div class="mt-3 mb-0">
               <h5 class="fw-bold">IT job market based on data from JustJoinIT (PL)</h5>
-              <p class="fs-6">Labor market analysis in the IT industry from 2021 to 2023, based on job offers from the JustJoin.it portal. The report presents trends in the total number of job postings over time, as well as breakdowns by experience level, work mode, and skills.</p>
+              <p class="fs-6">Labor market analysis in the IT industry from 2021 to 2023, based on job offers from the
+                JustJoin.it portal. The report presents trends in the total number of job postings over time, as well as
+                breakdowns by experience level, work mode, and skills.</p>
             </div>
-          }
-        </div>
+            }
+          </div>
 
-        <div class="col-md-6">
-            <a href="https://app.powerbi.com/view?r=eyJrIjoiNTZhNGQ0Y2ItYjhhZS00NWNjLTk1YWItM2JmOTg5ZThlMDZkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" class="text-white fs-5" target="_blank">
-                <div class="card project-card border shadow position-relative overflow-hidden">
-                <img src="dashboards/population.png" alt="Population Dashboard" class="card-img-top img-fluid">
-                <div class="overlay d-flex flex-column justify-content-center align-items-center text-white text-center p-3">
+          <div class="col-md-6">
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiNTZhNGQ0Y2ItYjhhZS00NWNjLTk1YWItM2JmOTg5ZThlMDZkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
+              class="text-white fs-5" target="_blank">
+              <div class="card project-card border shadow position-relative overflow-hidden">
+                <img src="dashboards/population.png" alt="Population Report" class="card-img-top img-fluid">
+                <div
+                  class="overlay d-flex flex-column justify-content-center align-items-center text-white text-center p-3">
                   @if(!isMobile){
-                    <h5 class="fw-bold">Population Dashboard (EN)</h5>
-                    <p class="mb-0 fs-6">An analysis about the population trends in Poland from 1960 to 2022, including average population figures, demographic breakdowns by age and gender, and changes illustrated by chain index and yearly growth.</p>
+                  <h5 class="fw-bold">Population Report (EN)</h5>
+                  <p class="mb-0 fs-6">An analysis about the population trends in Poland from 1960 to 2022, including
+                    average population figures, demographic breakdowns by age and gender, and changes illustrated by
+                    chain index and yearly growth.</p>
                   }
-                    <p class="text-decoration-underline fs-5">Open</p>
+                  <p class="text-decoration-underline fs-5">Open</p>
                 </div>
-            </div>
-          </a>
-          @if(isMobile){
+              </div>
+            </a>
+            @if(isMobile){
             <div class="mt-3 mb-0">
-              <h5 class="fw-bold">Population Dashboard (EN)</h5>
-              <p class="fs-6">An analysis about the population trends in Poland from 1960 to 2022, including average population figures, demographic breakdowns by age and gender, and changes illustrated by chain index and yearly growth.</p>
+              <h5 class="fw-bold">Population Report (EN)</h5>
+              <p class="fs-6">An analysis about the population trends in Poland from 1960 to 2022, including average
+                population figures, demographic breakdowns by age and gender, and changes illustrated by chain index and
+                yearly growth.</p>
             </div>
-          }
-        </div>
-  
-        <div class="col-md-6">
-            <a href="https://app.powerbi.com/view?r=eyJrIjoiMDc4MGFjOGUtNTRlNC00ZGFiLWExMjktZThjNzE2MTg4ZWI3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" class="text-white fs-5" target="_blank">
-                <div class="card project-card border shadow position-relative overflow-hidden">
-                <img src="dashboards/subreddit.png" alt="Subreddit Dashboard" class="card-img-top img-fluid">
-                <div class="overlay d-flex flex-column justify-content-center align-items-center text-white text-center p-3">
+            }
+          </div>
+
+          <div class="col-md-6">
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMDc4MGFjOGUtNTRlNC00ZGFiLWExMjktZThjNzE2MTg4ZWI3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
+              class="text-white fs-5" target="_blank">
+              <div class="card project-card border shadow position-relative overflow-hidden">
+                <img src="dashboards/subreddit.png" alt="Subreddit Report" class="card-img-top img-fluid">
+                <div
+                  class="overlay d-flex flex-column justify-content-center align-items-center text-white text-center p-3">
                   @if(!isMobile){
-                    <h5 class="fw-bold">Subreddit Dashboard (EN)</h5>
-                    <p class="mb-0 fs-6">A monthly analysis of r/ArtificialIntelligence subreddit posts, highlighting top contributors, posting trends, popular keywords, and peak activity times.</p>
+                  <h5 class="fw-bold">Subreddit Report (EN)</h5>
+                  <p class="mb-0 fs-6">A monthly analysis of r/ArtificialIntelligence subreddit posts, highlighting top
+                    contributors, posting trends, popular keywords, and peak activity times.</p>
                   }
-                    <p class="text-decoration-underline fs-5">Open</p>
+                  <p class="text-decoration-underline fs-5">Open</p>
                 </div>
-            </div>
-          </a>
-          @if(isMobile){
+              </div>
+            </a>
+            @if(isMobile){
             <div class="mt-3 mb-0">
-              <h5 class="fw-bold">Subreddit Dashboard (EN)</h5>
-              <p class="fs-6">A monthly analysis of r/ArtificialIntelligence subreddit posts, highlighting top contributors, posting trends, popular keywords, and peak activity times.</p>
+              <h5 class="fw-bold">Subreddit Report (EN)</h5>
+              <p class="fs-6">A monthly analysis of r/ArtificialIntelligence subreddit posts, highlighting top
+                contributors, posting trends, popular keywords, and peak activity times.</p>
             </div>
-          }
+            }
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  
+    <section id="excel" class="mb-4 bg-white-gray d-flex align-items-center">
+      <div class="container text-center">
+        <hr class="my-4" />
+        <div class="row g-4">
+          <h2 class="display-6 text-start">Excel</h2>
+
+          <div class="col-md-6">
+            <a href="https://github.com/LauraSzymanska/norwayexpenditures" class="text-white fs-5" target="_blank">
+              <div class="card project-card border shadow position-relative overflow-hidden">
+                <img src="dashboards/norway.png" alt="Norway Expenditures Dashboard" class="card-img-top img-fluid">
+                <div
+                  class="overlay d-flex flex-column justify-content-center align-items-center text-white text-center p-3">
+                  @if(!isMobile){
+                  <h5 class="fw-bold">Norway Expenditures Dashboard (EN)</h5>
+                  <p class="mb-0 fs-6">An analysis of health expenditures by financing sources
+                    from 2018 to 2022, including total expenditures and breakdowns by source
+                    visualized with pivot charts and using storytelling.</p>
+                  }
+                  <p class="text-decoration-underline fs-5">Open</p>
+                </div>
+              </div>
+            </a>
+            @if(isMobile){
+            <div class="mt-3 mb-0">
+              <h5 class="fw-bold">Norway Expenditures Dashboard (EN)</h5>
+              <p class="fs-6">An analysis of health expenditures by financing sources
+                from 2018 to 2022, including total expenditures and breakdowns by source
+                visualized with pivot charts and using storytelling.</p>
+            </div>
+            }
+          </div>
+
+        </div>
+      </div>
+    </section>
